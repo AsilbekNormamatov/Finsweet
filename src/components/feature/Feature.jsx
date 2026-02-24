@@ -5,8 +5,8 @@ export default function Feature() {
         <div className=' mb-32'>
             <div className="container">
                 <div className='flex justify-between'>
-                    <h1 className='font-semibold text-[36px] leading-11 tracking-[-3%] max-w-153.25'>The energy of a start-up combined with 30 years of experience</h1>
-                    <p className='font-medium text-[16px] text-[#1D3444] leading-7.5'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit <br /> amet eros blandit, hendrerit elit et, mattis purus. Vivamus commodo <br /> suscipit tellus et pellentesque.</p>
+                    <h1 className='font-semibold text-[36px] leading-11 tracking-[-3%] mb-13 max-w-153.25'>The energy of a start-up combined with 30 years of experience</h1>
+                    <p className='font-medium text-[16px] text-[#1D3444] leading-7.5 mb-13'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit <br /> amet eros blandit, hendrerit elit et, mattis purus. Vivamus commodo <br /> suscipit tellus et pellentesque.</p>
                 </div>
                 <div className='flex justify-between'>
                     <div>
