@@ -1,11 +1,12 @@
 import React from 'react'
+import style from './energy.module.css'
 import img from '../../assets/images/Image6.png'
 
 export default function Energy() {
   return (
     <div className='mb-32'>
       <div className='bg-[#F58A07]'>
-        <div className='flex gap-18 items-center'>
+        <div className={`${style.f} flex gap-18 items-center`}>
             <div>
                 <img src={img} alt="" width={650}/>
             </div>

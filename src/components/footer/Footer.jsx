@@ -1,4 +1,5 @@
 import React from 'react'
+import style from './footer.module.css'
 import logo from '../../assets/images/Logo4.svg'
 import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa'
 import { NavLink } from 'react-router-dom'
@@ -7,9 +8,9 @@ export default function Footer() {
     return (
         <div className='bg-[#063255] py-20.5'>
             <div className="container">
-                <div className='flex items-start justify-between mb-20'>
+                <div className={`${style.f} flex items-start justify-between mb-20`}>
                     <div>
-                        <img src={logo} alt="" className='mb-8' />
+                        <NavLink to='/'><img src={logo} alt="" className='mb-8' /></NavLink>
                         <h1 className='font-semibold text-[34px] leading-11 tracking-[-3%] text-white mb-8'>Bespoke software <br /> solutions</h1>
                         <div className='flex items-center gap-4.25'>
                             <a href="#"><FaFacebookF className='w-3 h-4.5 text-[#FFFFFF]' /></a>

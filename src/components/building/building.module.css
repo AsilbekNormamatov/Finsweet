@@ -1,0 +1,12 @@
+@media screen and (max-width:931px) {
+    .f{
+        gap: 30px;
+    }
+}
+@media screen and (max-width:860px) {
+    .f{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+    }
+}

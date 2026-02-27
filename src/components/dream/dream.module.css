@@ -1,0 +1,21 @@
+.i{
+    background-image: url(../../assets/images/Image7.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 600px;
+    width: 100%;
+    height: 90vh;
+    border-radius: 30px;
+    padding: 20px;
+    display: flex;
+    align-items: end;
+}
+
+@media screen and (max-width:931px) {
+    .f{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+    }
+}

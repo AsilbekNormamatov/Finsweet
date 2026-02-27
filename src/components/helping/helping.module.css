@@ -1,0 +1,11 @@
+@media screen and (max-width:931px) {
+    .f{
+        display: none;
+    }
+}
+@media screen and (max-width:643px) {
+    .c{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

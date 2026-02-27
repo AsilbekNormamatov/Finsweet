@@ -1,4 +1,5 @@
 import React from 'react'
+import style from './latest.module.css'
 import img1 from '../../assets/images/Image1.png'
 import img2 from '../../assets/images/Image2.png'
 import img3 from '../../assets/images/Image3.png'
@@ -9,7 +10,7 @@ export default function LatestBlog() {
         <div className='bg-[#DCEAF5] py-24'>
             <div className="container">
                 <h1 className='font-semibold text-[46px] leading-14 tracking-[-3%] capitalize text-[#0D1317] mb-16'>Latest Blog & News</h1>
-                <div className='flex justify-between items-center'>
+                <div className={`${style.f} flex justify-between items-center`}>
                     <div className='max-w-100 bg-white rounded-[20px]'>
                         <div className='mb-8'><img src={img1} alt="" /></div>
                         <div className='p-8'>

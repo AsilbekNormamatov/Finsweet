@@ -1,0 +1,11 @@
+@media screen and (max-width:931px) {
+    .f{
+        flex-wrap: wrap;
+    }
+    .i{
+        display: none;
+    }
+    .t{
+        order: 2;
+    }
+}

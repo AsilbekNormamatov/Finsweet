@@ -1,4 +1,5 @@
 import React from 'react'
+import style from './bloghero.module.css'
 import img from '../../assets/images/BlogImage.png'
 import img1 from '../../assets/images/BlogImage.svg'
 import { LuMoveRight } from 'react-icons/lu'
@@ -12,7 +13,7 @@ export default function BlogHero() {
     return (
         <div className='bg-[#DCEAF5] py-32 mb-32'>
             <div className="container">
-                <div className='flex justify-between items-center'>
+                <div className={`${style.f} flex justify-between items-center`}>
                     <div>
                         <div className='flex items-center gap-6 mb-6'>
                             <div className='flex items-center gap-2'>

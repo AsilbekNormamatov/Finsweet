@@ -1,4 +1,5 @@
 import React from 'react'
+import style from './sector.module.css'
 import img1 from '../../assets/images/Image1.png'
 import img2 from '../../assets/images/Image2.png'
 import img3 from '../../assets/images/Image3.png'
@@ -11,7 +12,7 @@ export default function Sector() {
       <div className="container">
         <h1 className='font-semibold text-[48px] leading-14 tracking-[-3%] mb-6.75'>We help more than 1500 <br /> companies from all sectors</h1>
         <p className='font-medium text-[16px] leading-7.5 text-[#5B5B5B] mb-16'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros <br /> blandit, hendrerit elit et, mattis purus. Vivamus commodo suscipit tellus et <br /> pellentesque.</p>
-        <div className='flex justify-between items-center'>
+        <div className={`${style.f} flex justify-between items-center`}>
             <div>
                 <div className='mb-8'><img src={img1} alt="" /></div>
                 <div>

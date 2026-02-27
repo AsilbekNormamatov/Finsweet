@@ -1,0 +1,7 @@
+@media screen and (max-width:931px) {
+    .f{
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+}
