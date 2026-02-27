@@ -31,7 +31,7 @@ export default function Header() {
             </div>
             <button className='py-4.5 px-8 text-[#F58A07] bg-[#F58A07]/10 hover:bg-[#F58A07] hover:text-white transition-[.3s] rounded-[30px] cursor-pointer'>Clone project</button>
           </div>
-          <div className={`hidden ${style.b} text-[40px]`}>
+          <div className={`hidden ${style.b} text-[30px]`}>
             <button onClick={toggleBar}><FaBars /></button>
           </div>
         </div>
